@@ -1,9 +1,15 @@
 require 'rails_helper'
 
-describe Post do
-  it 'can be created' do
-    post = Post.create!(title: "My title", description: "The post description")
-    expect(post).to be_valid
-  end
-
-end
+# Specs in this file have access to a helper object that includes
+# the PostsControllerHelper. For example:
+#
+# describe PostsControllerHelper do
+#   describe "string concat" do
+#     it "concats two strings with spaces" do
+#       expect(helper.concat_strings("this","that")).to eq("this that")
+#     end
+#   end
+# end
+#RSpec.describe PostsControllerHelper, type: :helper do
+#  pending "add some examples to (or delete) #{__FILE__}"
+#end
